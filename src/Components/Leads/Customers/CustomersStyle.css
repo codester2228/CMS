@@ -1,0 +1,127 @@
+.CustomerTopHed{
+    position: absolute;
+    width: 1096.5px;
+    height: 45.94px;
+    background: #F7F7F7;
+    border: 0.459437px solid #C4C4C4;
+    box-sizing: border-box;    
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    z-index: 100;
+}
+.CustomersType{
+    width: 230.49px;
+    height: 38.52px;
+    margin:3px 0 2px 2px;
+    position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    align-items: center;
+    font-weight: normal;
+    font-size: 16.5397px;
+    line-height: 19px;
+    color: #263238;
+    border: 1px solid #F7F7F7;
+    background: none;
+    cursor: pointer;
+
+}
+.CustomersType:hover{
+  background-color: #EBECF1;
+  cursor: pointer;
+}
+.CustomersType:after{
+  background-color: #EBECF1;
+  border: 1px solid #F7F7F7;
+    background: none;
+  cursor: pointer;
+}
+.CustomersType option{
+  background-color: #ccc;
+  border: none;
+  background: none;
+}
+.CustomersType option:hover{
+  background-color: #ccc;
+  border: none;
+  background: none;
+}
+/* *************************css for table ****************************** */
+.CustomerTable{
+  margin-top: 50px;
+  height: 900px;
+  border: 0.394925px solid #595959;
+box-sizing: border-box;
+background: #F7F7F7;
+}
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin-top: -55px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    position: relative;
+    background: #fff;
+    
+  }
+  
+  table td,
+  table th {
+    border-bottom:0.918875px solid #C4C4C4;
+    box-sizing: border-box;
+    height: 55.13px;
+    text-align: left;
+  }
+  
+  table tr{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.8642px;
+    line-height: 15px;
+
+    text-align: center;
+  }
+  /* table tr:hover {
+    background-color: #ddd;
+  } */
+ 
+  
+  table th, tfoot td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.8642px;
+    line-height: 15px;
+    color: #595959;
+  }
+/* ********************************** CSS for Quoted_Amount Row in Table **************************** */
+.Quoted_AmountStyle{
+  color:#5976E3 ;
+
+ display: flex;
+ flex-flow: row;
+}
+.RupeeIcon{
+  margin-top: 2px;
+}
+
+.DetailDataSrikanth{
+  margin-top: -142px;
+}
+
+.DetailDataKordula{
+  margin-top: -197.3px;
+}
+.DetailDataVikki{
+  margin-top: -252.6px;
+}
+.DetailDataBurnaby{
+  margin-top: -307.9px;
+}
+
